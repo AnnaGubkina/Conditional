@@ -79,10 +79,10 @@ public class ProfileController {
 Для этого:
 * для первого установите порт server.port=8080 и профиль в dev с помощью параметра netology.profile.dev=true в application.properties и соберите приложение:
 
-# Для gradle : 
+### Для gradle : 
 ```./gradlew clean build ```(если пишет Permission denied тогда сначала выполните chmod +x ./gradlew)
 
-# Для maven: 
+### Для maven: 
 ```./mvnw clean package ```(если пишет Permission denied тогда сначала выполните chmod +x ./mvnw)
 
 3. добавьте Dockerfile в корень проекта:
